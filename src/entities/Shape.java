@@ -23,7 +23,8 @@ public abstract class Shape {
 	public void setColor(Color color) {
 		this.color = color;
 	}
-
+	
+	// Methods
 	public abstract Double area();
 
 }

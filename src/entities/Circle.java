@@ -6,7 +6,6 @@ public class Circle extends Shape{
 	
 	// Attributes
 	private Double radius;
-	private final double Pi = 3.1415;
 	
 	// Builders
 	public Circle() {
@@ -30,7 +29,7 @@ public class Circle extends Shape{
 	// Methods
 	@Override
 	public Double area() {
-		return Pi * Math.pow(radius, 2.0);
+		return Math.PI * Math.pow(radius, 2.0);
 	}
 	
 	
